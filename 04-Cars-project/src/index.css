@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+.Parent{
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+ 
+}
+.Card{
+  margin: 20px;
+  height: 500px;
+  width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 17px;
+
+}
+.Top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Top button{
+  border: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+  justify-content: center;
+}
+.Center01{
+  text-align: center;
+}
+.Center01 img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Center01 h5{
+  color: grey;
+  margin-top: -5px;
+}
+.Center01 h3{
+  color: rgb(0, 191, 255);
+  margin-top: -2px;
+}
+.Center02 {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Center02 h4{
+   font-size: 10px;
+   border: 1px solid grey;
+   color: grey;
+   padding: 5px 15px;
+   border-radius: 17px;
+}
+.Center02 .Num{
+  background-color:rgb(0, 191, 255);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.Bottom{
+  margin-top: 35px;
+  text-align: center;
+}
+.Bottom p{
+  font-size: small;
+  color: grey;
+}
+.Bottom h2{
+  margin-top: 30px;
+  border-top: 1px solid grey;
+  
+}
+.Bottom h2:hover{
+  cursor: pointer;
+  background-color:rgb(0, 191, 255) ;
+  border: none;
+  color: #fff;
+  padding: 0;
+}
+
+
